@@ -1,0 +1,7 @@
+
+- name: roles docker_compose
+  hosts: all
+  become: yes
+  roles:
+    - docker_compose
+
